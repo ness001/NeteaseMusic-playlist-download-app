@@ -12,9 +12,9 @@ from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtWidgets import QFileDialog
 from time import sleep
 from requests import get
-from urllib.request import urlretrieve,install_opener,build_opener,urlopen
+from urllib.request import urlretrieve, install_opener, build_opener, urlopen
 import eyed3
-from os import path,chdir,getcwd,listdir
+from os import path, chdir, getcwd, listdir
 from configparser import ConfigParser
 from pathlib import Path
 import pandas as pd
